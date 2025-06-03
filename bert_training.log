@@ -1,0 +1,1272 @@
+INFO:__main__:开始训练数据集 1 的BERT模型
+INFO:__main__:数据集 1 - Epoch 1/8
+INFO:__main__:开始训练数据集 1 的BERT模型
+INFO:__main__:数据集 1 - Epoch 1/8
+INFO:__main__:数据集 1 - Epoch 1/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.4231
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8485
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0127
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8475
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0570
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.2521
+INFO:__main__:数据集 1 - Epoch 1/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3846
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8665
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0202
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8602
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0256
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.1843
+INFO:__main__:数据集 1 - 保存阈值 0.5 的最佳模型，MCC: 0.0000，ACC: 0.8665，路径: bert_models/dataset_1/best_model_threshold_0.5.bin
+INFO:__main__:数据集 1 - 保存阈值 0.7 的最佳模型，MCC: 0.0202，ACC: 0.8602，路径: bert_models/dataset_1/best_model_threshold_0.7.bin
+INFO:__main__:数据集 1 - 保存阈值 0.9 的最佳模型，MCC: 0.0256，ACC: 0.1843，路径: bert_models/dataset_1/best_model_threshold_0.9.bin
+INFO:__main__:数据集 1 - Epoch 2/8
+INFO:__main__:数据集 1 - Epoch 2/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3818
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.0668
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8475
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.2818
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8369
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.1754
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.4481
+INFO:__main__:数据集 1 - Epoch 2/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3749
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8665
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.1043
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8242
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.2266
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.6589
+INFO:__main__:数据集 1 - 保存阈值 0.7 的最佳模型，MCC: 0.1043，ACC: 0.8242，路径: bert_models/dataset_1/best_model_threshold_0.7.bin
+INFO:__main__:数据集 1 - 保存阈值 0.9 的最佳模型，MCC: 0.2266，ACC: 0.6589，路径: bert_models/dataset_1/best_model_threshold_0.9.bin
+INFO:__main__:数据集 1 - Epoch 3/8
+INFO:__main__:数据集 1 - Epoch 3/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3531
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.2247
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8559
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.4053
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8559
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.3073
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.6743
+INFO:__main__:数据集 1 - Epoch 3/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3782
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.1254
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8686
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.1099
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8199
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.2607
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7034
+INFO:__main__:数据集 1 - 保存阈值 0.5 的最佳模型，MCC: 0.1254，ACC: 0.8686，路径: bert_models/dataset_1/best_model_threshold_0.5.bin
+INFO:__main__:数据集 1 - 保存阈值 0.7 的最佳模型，MCC: 0.1099，ACC: 0.8199，路径: bert_models/dataset_1/best_model_threshold_0.7.bin
+INFO:__main__:数据集 1 - 保存阈值 0.9 的最佳模型，MCC: 0.2607，ACC: 0.7034，路径: bert_models/dataset_1/best_model_threshold_0.9.bin
+INFO:__main__:数据集 1 - Epoch 4/8
+INFO:__main__:数据集 1 - Epoch 4/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3015
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.4718
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8867
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.4986
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8713
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.3886
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.7368
+INFO:__main__:数据集 1 - Epoch 4/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4094
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.1077
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8453
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.1524
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8220
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.1714
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7309
+INFO:__main__:数据集 1 - 保存阈值 0.7 的最佳模型，MCC: 0.1524，ACC: 0.8220，路径: bert_models/dataset_1/best_model_threshold_0.7.bin
+INFO:__main__:数据集 1 - Epoch 5/8
+INFO:__main__:数据集 1 - Epoch 5/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2543
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.6036
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9094
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.5963
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8941
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.4829
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.7897
+INFO:__main__:数据集 1 - Epoch 5/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4349
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.1360
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8496
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.1355
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8263
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.1475
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7606
+INFO:__main__:数据集 1 - 保存阈值 0.5 的最佳模型，MCC: 0.1360，ACC: 0.8496，路径: bert_models/dataset_1/best_model_threshold_0.5.bin
+INFO:__main__:数据集 1 - Epoch 6/8
+INFO:__main__:数据集 1 - Epoch 6/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2109
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.7017
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9290
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.7033
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.9243
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.5882
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8559
+INFO:__main__:数据集 1 - Epoch 6/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4463
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.1075
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8326
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.1845
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8263
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.1396
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7542
+INFO:__main__:数据集 1 - 保存阈值 0.7 的最佳模型，MCC: 0.1845，ACC: 0.8263，路径: bert_models/dataset_1/best_model_threshold_0.7.bin
+INFO:__main__:数据集 1 - Epoch 7/8
+INFO:__main__:数据集 1 - Epoch 7/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.1886
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.7622
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9428
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.7805
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.9454
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.6407
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8845
+INFO:__main__:数据集 1 - Epoch 7/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4568
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.1788
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8347
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.2056
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8199
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.1668
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7436
+INFO:__main__:数据集 1 - 保存阈值 0.5 的最佳模型，MCC: 0.1788，ACC: 0.8347，路径: bert_models/dataset_1/best_model_threshold_0.5.bin
+INFO:__main__:数据集 1 - 保存阈值 0.7 的最佳模型，MCC: 0.2056，ACC: 0.8199，路径: bert_models/dataset_1/best_model_threshold_0.7.bin
+INFO:__main__:数据集 1 - Epoch 8/8
+INFO:__main__:数据集 1 - Epoch 8/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.1686
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.8047
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9523
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.8022
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.9502
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.6319
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8750
+INFO:__main__:数据集 1 - Epoch 8/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4570
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.1611
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8432
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.1484
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8263
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.1640
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7733
+INFO:root:数据集 1 的最佳结果已保存到 best_results.csv
+INFO:__main__:开始训练数据集 2 的BERT模型
+INFO:__main__:数据集 2 - Epoch 1/8
+INFO:__main__:数据集 2 - Epoch 1/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.4487
+INFO:__main__:  - 阈值 0.5 训练MCC: -0.0140
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8427
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0146
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8199
+INFO:__main__:  - 阈值 0.9 训练MCC: -0.0642
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.1684
+INFO:__main__:数据集 2 - Epoch 1/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4152
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8496
+INFO:__main__:  - 阈值 0.7 验证MCC: -0.0274
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8453
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.1504
+INFO:__main__:数据集 2 - 保存阈值 0.5 的最佳模型，MCC: 0.0000，ACC: 0.8496，路径: bert_models/dataset_2/best_model_threshold_0.5.bin
+INFO:__main__:数据集 2 - 保存阈值 0.7 的最佳模型，MCC: -0.0274，ACC: 0.8453，路径: bert_models/dataset_2/best_model_threshold_0.7.bin
+INFO:__main__:数据集 2 - 保存阈值 0.9 的最佳模型，MCC: 0.0000，ACC: 0.1504，路径: bert_models/dataset_2/best_model_threshold_0.9.bin
+INFO:__main__:数据集 2 - Epoch 2/8
+INFO:__main__:数据集 2 - Epoch 2/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.4219
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.1071
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8459
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0633
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8326
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.1013
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.2738
+INFO:__main__:数据集 2 - Epoch 2/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4039
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.0258
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8453
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.1071
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8178
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0714
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.2140
+INFO:__main__:数据集 2 - 保存阈值 0.5 的最佳模型，MCC: 0.0258，ACC: 0.8453，路径: bert_models/dataset_2/best_model_threshold_0.5.bin
+INFO:__main__:数据集 2 - 保存阈值 0.7 的最佳模型，MCC: 0.1071，ACC: 0.8178，路径: bert_models/dataset_2/best_model_threshold_0.7.bin
+INFO:__main__:数据集 2 - 保存阈值 0.9 的最佳模型，MCC: 0.0714，ACC: 0.2140，路径: bert_models/dataset_2/best_model_threshold_0.9.bin
+INFO:__main__:数据集 2 - Epoch 3/8
+INFO:__main__:数据集 2 - Epoch 3/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.4098
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.1570
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8475
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.1858
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8072
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.1188
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.3671
+INFO:__main__:数据集 2 - Epoch 3/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4166
+INFO:__main__:  - 阈值 0.5 验证MCC: -0.0194
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8475
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0258
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8453
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.2003
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7394
+INFO:__main__:数据集 2 - 保存阈值 0.9 的最佳模型，MCC: 0.2003，ACC: 0.7394，路径: bert_models/dataset_2/best_model_threshold_0.9.bin
+INFO:__main__:数据集 2 - Epoch 4/8
+INFO:__main__:数据集 2 - Epoch 4/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3549
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.2813
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8453
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.3427
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8189
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.3345
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.6398
+INFO:__main__:数据集 2 - Epoch 4/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3547
+INFO:__main__:  - 阈值 0.5 验证MCC: -0.0553
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8326
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.1590
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8093
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.4245
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.6992
+INFO:__main__:数据集 2 - 保存阈值 0.7 的最佳模型，MCC: 0.1590，ACC: 0.8093，路径: bert_models/dataset_2/best_model_threshold_0.7.bin
+INFO:__main__:数据集 2 - 保存阈值 0.9 的最佳模型，MCC: 0.4245，ACC: 0.6992，路径: bert_models/dataset_2/best_model_threshold_0.9.bin
+INFO:__main__:数据集 2 - Epoch 5/8
+INFO:__main__:数据集 2 - Epoch 5/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3046
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.3389
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8549
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.4289
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8305
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.4558
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.7378
+INFO:__main__:数据集 2 - Epoch 5/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3459
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.2799
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.7903
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.3980
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.7331
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.4402
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.6907
+INFO:__main__:数据集 2 - 保存阈值 0.5 的最佳模型，MCC: 0.2799，ACC: 0.7903，路径: bert_models/dataset_2/best_model_threshold_0.5.bin
+INFO:__main__:数据集 2 - 保存阈值 0.7 的最佳模型，MCC: 0.3980，ACC: 0.7331，路径: bert_models/dataset_2/best_model_threshold_0.7.bin
+INFO:__main__:数据集 2 - 保存阈值 0.9 的最佳模型，MCC: 0.4402，ACC: 0.6907，路径: bert_models/dataset_2/best_model_threshold_0.9.bin
+INFO:__main__:数据集 2 - Epoch 6/8
+INFO:__main__:数据集 2 - Epoch 6/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2535
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.5409
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8941
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.5878
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8771
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.5098
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.7738
+INFO:__main__:数据集 2 - Epoch 6/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3521
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.1694
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8284
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.2470
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.7797
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.4139
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7267
+INFO:__main__:数据集 2 - Epoch 7/8
+INFO:__main__:数据集 2 - Epoch 7/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2368
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.5759
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8983
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.6211
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8845
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.5482
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.7977
+INFO:__main__:数据集 2 - Epoch 7/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3820
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.0857
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8263
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.2364
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8093
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.3519
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7521
+INFO:__main__:数据集 2 - Epoch 8/8
+INFO:__main__:数据集 2 - Epoch 8/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2050
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.6996
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9269
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.7015
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.9115
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.5772
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8204
+INFO:__main__:数据集 2 - Epoch 8/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3807
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.1757
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8220
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.2082
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.7881
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.3696
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7415
+INFO:root:数据集 2 的最佳结果已保存到 best_results.csv
+INFO:__main__:开始训练数据集 3 的BERT模型
+INFO:__main__:数据集 3 - Epoch 1/8
+INFO:__main__:数据集 3 - Epoch 1/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.6515
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.0159
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.6340
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.6398
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.6398
+INFO:__main__:数据集 3 - Epoch 1/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.6162
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.6737
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.6737
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.6737
+INFO:__main__:数据集 3 - 保存阈值 0.5 的最佳模型，MCC: 0.0000，ACC: 0.6737，路径: bert_models/dataset_3/best_model_threshold_0.5.bin
+INFO:__main__:数据集 3 - 保存阈值 0.7 的最佳模型，MCC: 0.0000，ACC: 0.6737，路径: bert_models/dataset_3/best_model_threshold_0.7.bin
+INFO:__main__:数据集 3 - 保存阈值 0.9 的最佳模型，MCC: 0.0000，ACC: 0.6737，路径: bert_models/dataset_3/best_model_threshold_0.9.bin
+INFO:__main__:数据集 3 - Epoch 2/8
+INFO:__main__:数据集 3 - Epoch 2/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.6202
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.1385
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.6510
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.6398
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.6398
+INFO:__main__:数据集 3 - Epoch 2/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.5864
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.1525
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.6780
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.6737
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.6737
+INFO:__main__:数据集 3 - 保存阈值 0.5 的最佳模型，MCC: 0.1525，ACC: 0.6780，路径: bert_models/dataset_3/best_model_threshold_0.5.bin
+INFO:__main__:数据集 3 - Epoch 3/8
+INFO:__main__:数据集 3 - Epoch 3/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.5677
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.3541
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.7198
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.1152
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.6494
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.6398
+INFO:__main__:数据集 3 - Epoch 3/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.5797
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.2725
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.6949
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.1891
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.6949
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.6737
+INFO:__main__:数据集 3 - 保存阈值 0.5 的最佳模型，MCC: 0.2725，ACC: 0.6949，路径: bert_models/dataset_3/best_model_threshold_0.5.bin
+INFO:__main__:数据集 3 - 保存阈值 0.7 的最佳模型，MCC: 0.1891，ACC: 0.6949，路径: bert_models/dataset_3/best_model_threshold_0.7.bin
+INFO:__main__:数据集 3 - Epoch 4/8
+INFO:__main__:数据集 3 - Epoch 4/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.4918
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.4626
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.7601
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.3375
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.7071
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.6398
+INFO:__main__:数据集 3 - Epoch 4/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.5825
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.3167
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.6970
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.2381
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.7013
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.6737
+INFO:__main__:数据集 3 - 保存阈值 0.5 的最佳模型，MCC: 0.3167，ACC: 0.6970，路径: bert_models/dataset_3/best_model_threshold_0.5.bin
+INFO:__main__:数据集 3 - 保存阈值 0.7 的最佳模型，MCC: 0.2381，ACC: 0.7013，路径: bert_models/dataset_3/best_model_threshold_0.7.bin
+INFO:__main__:数据集 3 - Epoch 5/8
+INFO:__main__:数据集 3 - Epoch 5/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.4171
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.5998
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8189
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.4797
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.7648
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.6398
+INFO:__main__:数据集 3 - Epoch 5/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.6111
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.3143
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.6928
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.3014
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.7182
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.6737
+INFO:__main__:数据集 3 - 保存阈值 0.7 的最佳模型，MCC: 0.3014，ACC: 0.7182，路径: bert_models/dataset_3/best_model_threshold_0.7.bin
+INFO:__main__:数据集 3 - Epoch 6/8
+INFO:__main__:数据集 3 - Epoch 6/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3395
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.6938
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8612
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.5866
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8099
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0687
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.6425
+INFO:__main__:数据集 3 - Epoch 6/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.6324
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.2832
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.6843
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.3122
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.7203
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.6737
+INFO:__main__:数据集 3 - 保存阈值 0.7 的最佳模型，MCC: 0.3122，ACC: 0.7203，路径: bert_models/dataset_3/best_model_threshold_0.7.bin
+INFO:__main__:数据集 3 - Epoch 7/8
+INFO:__main__:数据集 3 - Epoch 7/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2970
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.7559
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8888
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.6599
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8432
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.1575
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.6536
+INFO:__main__:数据集 3 - Epoch 7/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.6718
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.2690
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.6631
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.3197
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.7140
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.1328
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.6822
+INFO:__main__:数据集 3 - 保存阈值 0.7 的最佳模型，MCC: 0.3197，ACC: 0.7140，路径: bert_models/dataset_3/best_model_threshold_0.7.bin
+INFO:__main__:数据集 3 - 保存阈值 0.9 的最佳模型，MCC: 0.1328，ACC: 0.6822，路径: bert_models/dataset_3/best_model_threshold_0.9.bin
+INFO:__main__:数据集 3 - Epoch 8/8
+INFO:__main__:数据集 3 - Epoch 8/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2544
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.8239
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9195
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.7109
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8655
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.1858
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.6589
+INFO:__main__:数据集 3 - Epoch 8/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.6828
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.2852
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.6631
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.3277
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.7161
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.1943
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.6949
+INFO:__main__:数据集 3 - 保存阈值 0.7 的最佳模型，MCC: 0.3277，ACC: 0.7161，路径: bert_models/dataset_3/best_model_threshold_0.7.bin
+INFO:__main__:数据集 3 - 保存阈值 0.9 的最佳模型，MCC: 0.1943，ACC: 0.6949，路径: bert_models/dataset_3/best_model_threshold_0.9.bin
+INFO:root:数据集 3 的最佳结果已保存到 best_results.csv
+INFO:__main__:开始训练数据集 4 的BERT模型
+INFO:__main__:数据集 4 - Epoch 1/8
+INFO:__main__:数据集 4 - Epoch 1/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.6993
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.0078
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.5042
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.5085
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.5085
+INFO:__main__:数据集 4 - Epoch 1/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.6840
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.1697
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.5847
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.5021
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.5021
+INFO:__main__:数据集 4 - 保存阈值 0.5 的最佳模型，MCC: 0.1697，ACC: 0.5847，路径: bert_models/dataset_4/best_model_threshold_0.5.bin
+INFO:__main__:数据集 4 - 保存阈值 0.7 的最佳模型，MCC: 0.0000，ACC: 0.5021，路径: bert_models/dataset_4/best_model_threshold_0.7.bin
+INFO:__main__:数据集 4 - 保存阈值 0.9 的最佳模型，MCC: 0.0000，ACC: 0.5021，路径: bert_models/dataset_4/best_model_threshold_0.9.bin
+INFO:__main__:数据集 4 - Epoch 2/8
+INFO:__main__:数据集 4 - Epoch 2/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.6834
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.1070
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.5540
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0437
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.5132
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.5085
+INFO:__main__:数据集 4 - Epoch 2/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.6674
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.2080
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.6038
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.1194
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.5254
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.5021
+INFO:__main__:数据集 4 - 保存阈值 0.5 的最佳模型，MCC: 0.2080，ACC: 0.6038，路径: bert_models/dataset_4/best_model_threshold_0.5.bin
+INFO:__main__:数据集 4 - 保存阈值 0.7 的最佳模型，MCC: 0.1194，ACC: 0.5254，路径: bert_models/dataset_4/best_model_threshold_0.7.bin
+INFO:__main__:数据集 4 - Epoch 3/8
+INFO:__main__:数据集 4 - Epoch 3/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.6623
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.1968
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.5985
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0889
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.5281
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.5085
+INFO:__main__:数据集 4 - Epoch 3/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.6636
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.1873
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.5911
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.1804
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.5445
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.5021
+INFO:__main__:数据集 4 - 保存阈值 0.7 的最佳模型，MCC: 0.1804，ACC: 0.5445，路径: bert_models/dataset_4/best_model_threshold_0.7.bin
+INFO:__main__:数据集 4 - Epoch 4/8
+INFO:__main__:数据集 4 - Epoch 4/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.6089
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.3345
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.6674
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.2635
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.6022
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.5085
+INFO:__main__:数据集 4 - Epoch 4/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.6551
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.2189
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.6059
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.2555
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.6123
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.5021
+INFO:__main__:数据集 4 - 保存阈值 0.5 的最佳模型，MCC: 0.2189，ACC: 0.6059，路径: bert_models/dataset_4/best_model_threshold_0.5.bin
+INFO:__main__:数据集 4 - 保存阈值 0.7 的最佳模型，MCC: 0.2555，ACC: 0.6123，路径: bert_models/dataset_4/best_model_threshold_0.7.bin
+INFO:__main__:数据集 4 - Epoch 5/8
+INFO:__main__:数据集 4 - Epoch 5/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.5529
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.4364
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.7182
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.3518
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.6562
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.5085
+INFO:__main__:数据集 4 - Epoch 5/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.6933
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.2122
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.5975
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.2761
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.6377
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.5021
+INFO:__main__:数据集 4 - 保存阈值 0.7 的最佳模型，MCC: 0.2761，ACC: 0.6377，路径: bert_models/dataset_4/best_model_threshold_0.7.bin
+INFO:__main__:数据集 4 - Epoch 6/8
+INFO:__main__:数据集 4 - Epoch 6/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.4865
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.5405
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.7701
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.4713
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.7214
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0406
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.5101
+INFO:__main__:数据集 4 - Epoch 6/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.7182
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.2415
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.6208
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.2379
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.6102
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0463
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.5042
+INFO:__main__:数据集 4 - 保存阈值 0.5 的最佳模型，MCC: 0.2415，ACC: 0.6208，路径: bert_models/dataset_4/best_model_threshold_0.5.bin
+INFO:__main__:数据集 4 - 保存阈值 0.9 的最佳模型，MCC: 0.0463，ACC: 0.5042，路径: bert_models/dataset_4/best_model_threshold_0.9.bin
+INFO:__main__:数据集 4 - Epoch 7/8
+INFO:__main__:数据集 4 - Epoch 7/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.4317
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.6144
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8072
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.5510
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.7659
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.1311
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.5281
+INFO:__main__:数据集 4 - Epoch 7/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.7998
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.2406
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.6144
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.2357
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.6017
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0882
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.5127
+INFO:__main__:数据集 4 - 保存阈值 0.9 的最佳模型，MCC: 0.0882，ACC: 0.5127，路径: bert_models/dataset_4/best_model_threshold_0.9.bin
+INFO:__main__:数据集 4 - Epoch 8/8
+INFO:__main__:数据集 4 - Epoch 8/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3969
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.6630
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8316
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.6047
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.7950
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.2041
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.5514
+INFO:__main__:数据集 4 - Epoch 8/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.7648
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.2717
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.6356
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.2554
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.6186
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.1413
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.5275
+INFO:__main__:数据集 4 - 保存阈值 0.5 的最佳模型，MCC: 0.2717，ACC: 0.6356，路径: bert_models/dataset_4/best_model_threshold_0.5.bin
+INFO:__main__:数据集 4 - 保存阈值 0.9 的最佳模型，MCC: 0.1413，ACC: 0.5275，路径: bert_models/dataset_4/best_model_threshold_0.9.bin
+INFO:root:数据集 4 的最佳结果已保存到 best_results.csv
+INFO:__main__:开始训练数据集 5 的BERT模型
+INFO:__main__:数据集 5 - Epoch 1/8
+INFO:__main__:数据集 5 - Epoch 1/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.6077
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.0077
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.6970
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.7119
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.7119
+INFO:__main__:数据集 5 - Epoch 1/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.5885
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.7140
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.7140
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7140
+INFO:__main__:数据集 5 - 保存阈值 0.5 的最佳模型，MCC: 0.0000，ACC: 0.7140，路径: bert_models/dataset_5/best_model_threshold_0.5.bin
+INFO:__main__:数据集 5 - 保存阈值 0.7 的最佳模型，MCC: 0.0000，ACC: 0.7140，路径: bert_models/dataset_5/best_model_threshold_0.7.bin
+INFO:__main__:数据集 5 - 保存阈值 0.9 的最佳模型，MCC: 0.0000，ACC: 0.7140，路径: bert_models/dataset_5/best_model_threshold_0.9.bin
+INFO:__main__:数据集 5 - Epoch 2/8
+INFO:__main__:数据集 5 - Epoch 2/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.5735
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.0854
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.7150
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.7119
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.7119
+INFO:__main__:数据集 5 - Epoch 2/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.5793
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.0728
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.7161
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.7140
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7140
+INFO:__main__:数据集 5 - 保存阈值 0.5 的最佳模型，MCC: 0.0728，ACC: 0.7161，路径: bert_models/dataset_5/best_model_threshold_0.5.bin
+INFO:__main__:数据集 5 - Epoch 3/8
+INFO:__main__:数据集 5 - Epoch 3/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.5397
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.2097
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.7304
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.7119
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.7119
+INFO:__main__:数据集 5 - Epoch 3/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.5574
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.1714
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.7267
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.7140
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7140
+INFO:__main__:数据集 5 - 保存阈值 0.5 的最佳模型，MCC: 0.1714，ACC: 0.7267，路径: bert_models/dataset_5/best_model_threshold_0.5.bin
+INFO:__main__:数据集 5 - Epoch 4/8
+INFO:__main__:数据集 5 - Epoch 4/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.4532
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.4559
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.7945
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.1616
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.7240
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.7119
+INFO:__main__:数据集 5 - Epoch 4/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4446
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.5758
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8369
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.1374
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.7225
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7140
+INFO:__main__:数据集 5 - 保存阈值 0.5 的最佳模型，MCC: 0.5758，ACC: 0.8369，路径: bert_models/dataset_5/best_model_threshold_0.5.bin
+INFO:__main__:数据集 5 - 保存阈值 0.7 的最佳模型，MCC: 0.1374，ACC: 0.7225，路径: bert_models/dataset_5/best_model_threshold_0.7.bin
+INFO:__main__:数据集 5 - Epoch 5/8
+INFO:__main__:数据集 5 - Epoch 5/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3766
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.6227
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8517
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.4318
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.7871
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.7119
+INFO:__main__:数据集 5 - Epoch 5/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4490
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.5543
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8263
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.6307
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8559
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7140
+INFO:__main__:数据集 5 - 保存阈值 0.7 的最佳模型，MCC: 0.6307，ACC: 0.8559，路径: bert_models/dataset_5/best_model_threshold_0.7.bin
+INFO:__main__:数据集 5 - Epoch 6/8
+INFO:__main__:数据集 5 - Epoch 6/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3392
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.6822
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8739
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.5638
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8316
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.7119
+INFO:__main__:数据集 5 - Epoch 6/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4329
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.5755
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8347
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.6365
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8581
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7140
+INFO:__main__:数据集 5 - 保存阈值 0.7 的最佳模型，MCC: 0.6365，ACC: 0.8581，路径: bert_models/dataset_5/best_model_threshold_0.7.bin
+INFO:__main__:数据集 5 - Epoch 7/8
+INFO:__main__:数据集 5 - Epoch 7/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2957
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.7238
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8888
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.6245
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8533
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.7119
+INFO:__main__:数据集 5 - Epoch 7/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4403
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.6003
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8453
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.6255
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8538
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7140
+INFO:__main__:数据集 5 - 保存阈值 0.5 的最佳模型，MCC: 0.6003，ACC: 0.8453，路径: bert_models/dataset_5/best_model_threshold_0.5.bin
+INFO:__main__:数据集 5 - Epoch 8/8
+INFO:__main__:数据集 5 - Epoch 8/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2746
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.7694
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9068
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.6331
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8565
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.7119
+INFO:__main__:数据集 5 - Epoch 8/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4428
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.5623
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8305
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.6131
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8496
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7140
+INFO:root:数据集 5 的最佳结果已保存到 best_results.csv
+INFO:__main__:开始训练数据集 6 的BERT模型
+INFO:__main__:数据集 6 - Epoch 1/8
+INFO:__main__:数据集 6 - Epoch 1/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3764
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.0088
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8655
+INFO:__main__:  - 阈值 0.7 训练MCC: -0.0139
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8898
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8914
+INFO:__main__:数据集 6 - Epoch 1/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3610
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8877
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8877
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8877
+INFO:__main__:数据集 6 - 保存阈值 0.5 的最佳模型，MCC: 0.0000，ACC: 0.8877，路径: bert_models/dataset_6/best_model_threshold_0.5.bin
+INFO:__main__:数据集 6 - 保存阈值 0.7 的最佳模型，MCC: 0.0000，ACC: 0.8877，路径: bert_models/dataset_6/best_model_threshold_0.7.bin
+INFO:__main__:数据集 6 - 保存阈值 0.9 的最佳模型，MCC: 0.0000，ACC: 0.8877，路径: bert_models/dataset_6/best_model_threshold_0.9.bin
+INFO:__main__:数据集 6 - Epoch 2/8
+INFO:__main__:数据集 6 - Epoch 2/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3502
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8914
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8914
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8914
+INFO:__main__:数据集 6 - Epoch 2/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3549
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8877
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8877
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8877
+INFO:__main__:数据集 6 - Epoch 3/8
+INFO:__main__:数据集 6 - Epoch 3/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3469
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8914
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8914
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8914
+INFO:__main__:数据集 6 - Epoch 3/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3580
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8877
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8877
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8877
+INFO:__main__:数据集 6 - Epoch 4/8
+INFO:__main__:数据集 6 - Epoch 4/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3415
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8914
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8914
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8914
+INFO:__main__:数据集 6 - Epoch 4/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3577
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8877
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8877
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8877
+INFO:__main__:数据集 6 - Epoch 5/8
+INFO:__main__:数据集 6 - Epoch 5/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3371
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8914
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8914
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8914
+INFO:__main__:数据集 6 - Epoch 5/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3422
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8877
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8877
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8877
+INFO:__main__:数据集 6 - Epoch 6/8
+INFO:__main__:数据集 6 - Epoch 6/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2955
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.2632
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8999
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8914
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8914
+INFO:__main__:数据集 6 - Epoch 6/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.2719
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.2132
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8919
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8877
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8877
+INFO:__main__:数据集 6 - 保存阈值 0.5 的最佳模型，MCC: 0.2132，ACC: 0.8919，路径: bert_models/dataset_6/best_model_threshold_0.5.bin
+INFO:__main__:数据集 6 - Epoch 7/8
+INFO:__main__:数据集 6 - Epoch 7/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2380
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.5219
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9179
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.2734
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.9004
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8914
+INFO:__main__:数据集 6 - Epoch 7/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.2498
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.5238
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.9174
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.1992
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8919
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8877
+INFO:__main__:数据集 6 - 保存阈值 0.5 的最佳模型，MCC: 0.5238，ACC: 0.9174，路径: bert_models/dataset_6/best_model_threshold_0.5.bin
+INFO:__main__:数据集 6 - 保存阈值 0.7 的最佳模型，MCC: 0.1992，ACC: 0.8919，路径: bert_models/dataset_6/best_model_threshold_0.7.bin
+INFO:__main__:数据集 6 - Epoch 8/8
+INFO:__main__:数据集 6 - Epoch 8/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2169
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.5861
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9280
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.2723
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.9004
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8914
+INFO:__main__:数据集 6 - Epoch 8/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.2499
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.5180
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.9174
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.1296
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8898
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8877
+INFO:root:数据集 6 的最佳结果已保存到 best_results.csv
+INFO:__main__:开始训练数据集 7 的BERT模型
+INFO:__main__:数据集 7 - Epoch 1/8
+INFO:__main__:数据集 7 - Epoch 1/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.6550
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.0867
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.6059
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.6028
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.6028
+INFO:__main__:数据集 7 - Epoch 1/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.6078
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.2500
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.6589
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.6059
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.6059
+INFO:__main__:数据集 7 - 保存阈值 0.5 的最佳模型，MCC: 0.2500，ACC: 0.6589，路径: bert_models/dataset_7/best_model_threshold_0.5.bin
+INFO:__main__:数据集 7 - 保存阈值 0.7 的最佳模型，MCC: 0.0000，ACC: 0.6059，路径: bert_models/dataset_7/best_model_threshold_0.7.bin
+INFO:__main__:数据集 7 - 保存阈值 0.9 的最佳模型，MCC: 0.0000，ACC: 0.6059，路径: bert_models/dataset_7/best_model_threshold_0.9.bin
+INFO:__main__:数据集 7 - Epoch 2/8
+INFO:__main__:数据集 7 - Epoch 2/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.4714
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.5676
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.7961
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.4324
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.7267
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.6028
+INFO:__main__:数据集 7 - Epoch 2/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4366
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.6481
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8305
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.6599
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8390
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.6059
+INFO:__main__:数据集 7 - 保存阈值 0.5 的最佳模型，MCC: 0.6481，ACC: 0.8305，路径: bert_models/dataset_7/best_model_threshold_0.5.bin
+INFO:__main__:数据集 7 - 保存阈值 0.7 的最佳模型，MCC: 0.6599，ACC: 0.8390，路径: bert_models/dataset_7/best_model_threshold_0.7.bin
+INFO:__main__:数据集 7 - Epoch 3/8
+INFO:__main__:数据集 7 - Epoch 3/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3627
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.6848
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8501
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.6724
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8443
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.2215
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.6377
+INFO:__main__:数据集 7 - Epoch 3/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4457
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.6279
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8178
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.6711
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8432
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.4585
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7352
+INFO:__main__:数据集 7 - 保存阈值 0.7 的最佳模型，MCC: 0.6711，ACC: 0.8432，路径: bert_models/dataset_7/best_model_threshold_0.7.bin
+INFO:__main__:数据集 7 - 保存阈值 0.9 的最佳模型，MCC: 0.4585，ACC: 0.7352，路径: bert_models/dataset_7/best_model_threshold_0.9.bin
+INFO:__main__:数据集 7 - Epoch 4/8
+INFO:__main__:数据集 7 - Epoch 4/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2921
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.7674
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8888
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.7313
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8718
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.4587
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.7304
+INFO:__main__:数据集 7 - Epoch 4/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4828
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.5829
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.7903
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.6513
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8326
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.5936
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8072
+INFO:__main__:数据集 7 - 保存阈值 0.9 的最佳模型，MCC: 0.5936，ACC: 0.8072，路径: bert_models/dataset_7/best_model_threshold_0.9.bin
+INFO:__main__:数据集 7 - Epoch 5/8
+INFO:__main__:数据集 7 - Epoch 5/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2492
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.8119
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9100
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.7913
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.9004
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.6378
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8199
+INFO:__main__:数据集 7 - Epoch 5/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4711
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.6334
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8220
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.6617
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8390
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.6109
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8157
+INFO:__main__:数据集 7 - 保存阈值 0.9 的最佳模型，MCC: 0.6109，ACC: 0.8157，路径: bert_models/dataset_7/best_model_threshold_0.9.bin
+INFO:__main__:数据集 7 - Epoch 6/8
+INFO:__main__:数据集 7 - Epoch 6/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2035
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.8596
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9327
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.8404
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.9237
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.7117
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8575
+INFO:__main__:数据集 7 - Epoch 6/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.5034
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.6179
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8114
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.6513
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8326
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.6544
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8369
+INFO:__main__:数据集 7 - 保存阈值 0.9 的最佳模型，MCC: 0.6544，ACC: 0.8369，路径: bert_models/dataset_7/best_model_threshold_0.9.bin
+INFO:__main__:数据集 7 - Epoch 7/8
+INFO:__main__:数据集 7 - Epoch 7/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.1706
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.8931
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9486
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.8713
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.9386
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.7684
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8861
+INFO:__main__:数据集 7 - Epoch 7/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.4883
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.6481
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8305
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.6607
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8390
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.6096
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8157
+INFO:__main__:数据集 7 - Epoch 8/8
+INFO:__main__:数据集 7 - Epoch 8/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.1456
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.9205
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9619
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.8969
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.9507
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.8010
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.9025
+INFO:__main__:数据集 7 - Epoch 8/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.5260
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.6328
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8199
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.6473
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8305
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.6454
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8326
+INFO:root:数据集 7 的最佳结果已保存到 best_results.csv
+INFO:__main__:开始训练数据集 8 的BERT模型
+INFO:__main__:数据集 8 - Epoch 1/8
+INFO:__main__:数据集 8 - Epoch 1/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3618
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8867
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8867
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8867
+INFO:__main__:数据集 8 - Epoch 1/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3380
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8771
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8771
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8771
+INFO:__main__:数据集 8 - 保存阈值 0.5 的最佳模型，MCC: 0.0000，ACC: 0.8771，路径: bert_models/dataset_8/best_model_threshold_0.5.bin
+INFO:__main__:数据集 8 - 保存阈值 0.7 的最佳模型，MCC: 0.0000，ACC: 0.8771，路径: bert_models/dataset_8/best_model_threshold_0.7.bin
+INFO:__main__:数据集 8 - 保存阈值 0.9 的最佳模型，MCC: 0.0000，ACC: 0.8771，路径: bert_models/dataset_8/best_model_threshold_0.9.bin
+INFO:__main__:数据集 8 - Epoch 2/8
+INFO:__main__:数据集 8 - Epoch 2/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3103
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.1674
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8898
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0911
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8877
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8867
+INFO:__main__:数据集 8 - Epoch 2/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3006
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.3935
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8623
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.2416
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8771
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8771
+INFO:__main__:数据集 8 - 保存阈值 0.5 的最佳模型，MCC: 0.3935，ACC: 0.8623，路径: bert_models/dataset_8/best_model_threshold_0.5.bin
+INFO:__main__:数据集 8 - 保存阈值 0.7 的最佳模型，MCC: 0.2416，ACC: 0.8771，路径: bert_models/dataset_8/best_model_threshold_0.7.bin
+INFO:__main__:数据集 8 - Epoch 3/8
+INFO:__main__:数据集 8 - Epoch 3/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2601
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.4007
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9010
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.2414
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8941
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8867
+INFO:__main__:数据集 8 - Epoch 3/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3165
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.3607
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8559
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.2691
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8750
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8771
+INFO:__main__:数据集 8 - 保存阈值 0.7 的最佳模型，MCC: 0.2691，ACC: 0.8750，路径: bert_models/dataset_8/best_model_threshold_0.7.bin
+INFO:__main__:数据集 8 - Epoch 4/8
+INFO:__main__:数据集 8 - Epoch 4/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2165
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.5290
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9158
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.5050
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.9184
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8867
+INFO:__main__:数据集 8 - Epoch 4/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3111
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.3096
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8708
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.2009
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8708
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8771
+INFO:__main__:数据集 8 - Epoch 5/8
+INFO:__main__:数据集 8 - Epoch 5/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.1700
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.6880
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9433
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.6314
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.9354
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8867
+INFO:__main__:数据集 8 - Epoch 5/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3475
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.3796
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8602
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.3557
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8729
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8771
+INFO:__main__:数据集 8 - 保存阈值 0.7 的最佳模型，MCC: 0.3557，ACC: 0.8729，路径: bert_models/dataset_8/best_model_threshold_0.7.bin
+INFO:__main__:数据集 8 - Epoch 6/8
+INFO:__main__:数据集 8 - Epoch 6/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.1389
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.7531
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9534
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.7216
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.9492
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.2653
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8957
+INFO:__main__:数据集 8 - Epoch 6/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3404
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.3557
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8729
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.2691
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8750
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.1231
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8792
+INFO:__main__:数据集 8 - 保存阈值 0.9 的最佳模型，MCC: 0.1231，ACC: 0.8792，路径: bert_models/dataset_8/best_model_threshold_0.9.bin
+INFO:__main__:数据集 8 - Epoch 7/8
+INFO:__main__:数据集 8 - Epoch 7/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.1154
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.8203
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9656
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.7909
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.9608
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.3106
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8988
+INFO:__main__:数据集 8 - Epoch 7/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3543
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.3651
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8729
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.2951
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8729
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.1676
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8792
+INFO:__main__:数据集 8 - 保存阈值 0.9 的最佳模型，MCC: 0.1676，ACC: 0.8792，路径: bert_models/dataset_8/best_model_threshold_0.9.bin
+INFO:__main__:数据集 8 - Epoch 8/8
+INFO:__main__:数据集 8 - Epoch 8/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.0969
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.8520
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9714
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.8331
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.9682
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.3720
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.9041
+INFO:__main__:数据集 8 - Epoch 8/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3596
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.3424
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8644
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.3525
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8750
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.1366
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8750
+INFO:root:数据集 8 的最佳结果已保存到 best_results.csv
+INFO:__main__:开始训练数据集 9 的BERT模型
+INFO:__main__:数据集 9 - Epoch 1/8
+INFO:__main__:数据集 9 - Epoch 1/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.5031
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.0053
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.7945
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8120
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8120
+INFO:__main__:数据集 9 - Epoch 1/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.5039
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.7775
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.7775
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7775
+INFO:__main__:数据集 9 - 保存阈值 0.5 的最佳模型，MCC: 0.0000，ACC: 0.7775，路径: bert_models/dataset_9/best_model_threshold_0.5.bin
+INFO:__main__:数据集 9 - 保存阈值 0.7 的最佳模型，MCC: 0.0000，ACC: 0.7775，路径: bert_models/dataset_9/best_model_threshold_0.7.bin
+INFO:__main__:数据集 9 - 保存阈值 0.9 的最佳模型，MCC: 0.0000，ACC: 0.7775，路径: bert_models/dataset_9/best_model_threshold_0.9.bin
+INFO:__main__:数据集 9 - Epoch 2/8
+INFO:__main__:数据集 9 - Epoch 2/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.3793
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.3182
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8305
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.1687
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8167
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8120
+INFO:__main__:数据集 9 - Epoch 2/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3490
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.6301
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8729
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.5845
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8686
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7775
+INFO:__main__:数据集 9 - 保存阈值 0.5 的最佳模型，MCC: 0.6301，ACC: 0.8729，路径: bert_models/dataset_9/best_model_threshold_0.5.bin
+INFO:__main__:数据集 9 - 保存阈值 0.7 的最佳模型，MCC: 0.5845，ACC: 0.8686，路径: bert_models/dataset_9/best_model_threshold_0.7.bin
+INFO:__main__:数据集 9 - Epoch 3/8
+INFO:__main__:数据集 9 - Epoch 3/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2794
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.6339
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.8877
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.5568
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8792
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8120
+INFO:__main__:数据集 9 - Epoch 3/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3643
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.5929
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8708
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.4855
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8432
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.0000
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.7775
+INFO:__main__:数据集 9 - Epoch 4/8
+INFO:__main__:数据集 9 - Epoch 4/8 训练指标:
+INFO:__main__:  - 平均训练损失: 0.2360
+INFO:__main__:  - 阈值 0.5 训练MCC: 0.6851
+INFO:__main__:  - 阈值 0.5 训练准确率: 0.9062
+INFO:__main__:  - 阈值 0.7 训练MCC: 0.6123
+INFO:__main__:  - 阈值 0.7 训练准确率: 0.8925
+INFO:__main__:  - 阈值 0.9 训练MCC: 0.1516
+INFO:__main__:  - 阈值 0.9 训练准确率: 0.8173
+INFO:__main__:数据集 9 - Epoch 4/8 验证指标:
+INFO:__main__:  - 平均验证损失: 0.3310
+INFO:__main__:  - 阈值 0.5 验证MCC: 0.6789
+INFO:__main__:  - 阈值 0.5 验证准确率: 0.8919
+INFO:__main__:  - 阈值 0.7 验证MCC: 0.6240
+INFO:__main__:  - 阈值 0.7 验证准确率: 0.8792
+INFO:__main__:  - 阈值 0.9 验证MCC: 0.2806
+INFO:__main__:  - 阈值 0.9 验证准确率: 0.8008
+INFO:__main__:数据集 9 - 保存阈值 0.5 的最佳模型，MCC: 0.6789，ACC: 0.8919，路径: bert_models/dataset_9/best_model_threshold_0.5.bin
+INFO:__main__:数据集 9 - 保存阈值 0.7 的最佳模型，MCC: 0.6240，ACC: 0.8792，路径: bert_models/dataset_9/best_model_threshold_0.7.bin
+INFO:__main__:数据集 9 - 保存阈值 0.9 的最佳模型，MCC: 0.2806，ACC: 0.8008，路径: bert_models/dataset_9/best_model_threshold_0.9.bin
+INFO:__main__:数据集 9 - Epoch 5/8
